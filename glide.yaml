@@ -1,0 +1,11 @@
+package: packet-dump
+import:
+- package: github.com/google/gopacket
+  version: ~1.1.12
+  subpackages:
+  - layers
+  - pcap
+- package: github.com/fatih/color
+  version: ~1.5.0
+- package: github.com/urfave/cli
+  version: ^1.20.0
